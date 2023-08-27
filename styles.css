@@ -1,0 +1,479 @@
+/* DESKTOP START */
+
+.NoUnderline {
+    text-decoration: none;
+}
+.Sponsors {
+    display: none;
+}
+.Schedule p {
+    padding-left: calc(5vw + 16px);
+    margin-top: 0;
+}
+.Schedule h2 {
+    margin-bottom: 0;
+}
+html {
+    font-family: "Exo 2", sans-serif;
+ 
+
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+nav {
+   
+}
+.NavBar {
+    background-color: #4F6D7A;
+    margin: 0;
+    justify-content: space-between;
+    display: flex;
+    padding-left: calc(5vw + 1em);
+    padding-right: 5vw;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    /*box-shadow: 0px 8px 32px -8px #000;*/
+    align-items: center;
+}
+.NavBarImage {
+    width: fit-content;
+}
+.NavBarImage img {
+    max-width: 300px;
+}
+header {
+    margin-bottom: 3em;
+}
+.HeaderFlex {
+    padding-left: calc(5vw + 16px);
+    padding-right: 3em;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    align-items: center;
+    
+}
+.HeaderImageGrid {
+
+gap: 1em;
+display: flex;
+flex-direction: column;
+
+}
+.LargeHeaderImage img {
+max-width: 100%;
+box-shadow: -10px 10px #4F6D7A;
+
+}
+.HeaderText {
+    max-width: 100%;
+    
+}
+.H1StyleChange {
+    font-size: 56px;
+    color: black;
+}
+header {
+  
+}
+
+.Heading2Header {
+    background-color: transparent !important;
+    color: black;
+    padding: 0;
+    margin-top: 0;
+    font-size: 40px;
+    font-size: 2.8vw !important;
+    font-weight: 600;
+    max-width: 100% !important;
+    margin-bottom: .4em;
+   
+}
+.HeaderTextAndImage {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 2em;
+}
+.SmallHeaderImage {
+    max-width: 33%;
+}
+
+.SmallHeaderImage img {
+    
+}
+.SmallHeaderImageGrid {
+    display: none;
+ 
+    gap: 1em;
+    padding-left: calc(5vw + 16px);
+    padding-right: 3em;
+
+
+}
+.HeaderSponsorship {
+    margin-top: 1em;
+}
+.MainContent {
+    
+}
+.PrimaryButton {
+    font-family: "Exo 2", sans-serif;
+    font-weight:600;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 1em;
+    background-color: hwb(296 4% 16%);
+    color: #fff;
+}
+button {
+    border-style: none;
+}
+button:hover {
+    background-color: hwb(296 4% 50%);
+}
+.BottomCTALinks .Filled:hover {
+    background-color: hwb(296 4% 50%);
+}
+.BottomCTALinks .Unfilled:hover {
+    background-color: hwb(199 18% 72%);
+}
+.PrimaryButtonWithBorder {
+    font-family: "Exo 2", sans-serif;
+    font-weight:600;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 1em;
+    background-color: #CA09D7;
+    color: #fff;
+    border: white 1px solid;
+}
+.PrimaryButtonFill {
+    font-family: "Exo 2", sans-serif;
+    font-weight:600;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 1em;
+    background-color: #CA09D7;
+    color: #fff;
+    width: 10em;
+}
+.SecondaryButton {
+    background-color: transparent;
+    font-family: "Exo 2", sans-serif;
+    font-weight:600;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 1em;
+    width: auto;
+    border: 2px #CA09D7 solid;
+}
+.Link {
+    font-weight: 600;
+    color: #CA09D7;
+}
+.Link:hover {
+color: hwb(296 4% 50%);
+}
+.Heading1 {
+    font-family: "Goldman", sans-serif;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: .25em;
+    color: #CA09D7;
+    font-size: 80px;
+    font-size: 7vw !important;
+    line-height: 85% !important;
+    margin-top: .25em;
+}
+.Heading2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: .25em;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-left: calc(5vw + 16px);
+    min-width: 60vw;
+}
+.Heading3 {
+    font-size: 32px;
+    font-weight: 600;
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom: .5em;
+
+    
+}
+
+.Heading4 {
+    font-size: 24px;
+    font-weight: 400;
+    font-size: 2vw !important;
+    max-width: 80%;
+
+    
+}
+.Card {
+    background-color: #4F6D7A;
+    color: #fff;
+    padding: 24px;
+    flex-basis: 100%;
+    border-bottom: #CA09D7 solid 8px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.Card p, .Card .Heading4 {
+    max-width: none;
+    padding: 0;
+    margin: 0;
+}
+.InfoCardGroup {
+    display: flex;
+    gap: 2em;
+    padding-left: calc(5vw + 16px);
+    padding-right: 3em;
+}
+.BottomCTALinks {
+    padding-left: calc(5vw + 16px);
+    padding-right: 3em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 56px;
+    margin-bottom: 56px;
+    
+}
+.BottomCTALinks .Filled {
+    background-color: #CA09D7;
+    color: #fff;
+}
+.BottomCTALinks a {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4F6D7A;
+    color: #fff;
+    border: #000 2px solid;
+}
+.BottomCTAText {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.BottomCTAText .Heading4, .BottomCTAText p {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.BottomCTAIcon {
+   
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    border-left: #000 solid 2px;
+}
+.BottomCTAIcon img {
+    width: 2em;
+    height: 2em;
+}
+header .Heading4 {
+    font-size: 32px;
+}
+p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: .5em;
+    max-width: 60%;
+}
+.BodyFullWidth {
+    max-width: 100%;
+    margin-bottom: .25em;
+}
+.Body {
+    padding-left: calc(5vw + 16px);
+}
+.BodyLight {
+    font-weight: 300;
+}
+.SponsorGroup {
+    display: flex;
+    gap: 4em;
+    margin-top: 1em;
+    width: max-content;
+    padding-left: calc(5vw + 16px);
+    
+
+
+}
+.SponsorLogo img {
+    width: 150px;
+    height: 150px;
+    width: 10vw !important;
+}
+footer {
+    
+    color: #fff;
+    background-color: #4F6D7A;
+    margin: 0;
+    justify-content: space-between;
+    display: flex;
+    padding-left: calc(5vw + 1em);
+    padding-right: 5vw;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    align-items: center;
+}
+.CopyrightInfo {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.FooterLogo {
+    max-width: 56px;
+}
+footer p {
+    margin: 0;
+}
+.SocialMediaIconGroup {
+    display: flex;
+    gap: .6em;
+}
+.SocialMediaIcon {
+    max-width: 32px;
+    color: white;
+}
+
+/* DESKTOP END */
+
+/*
+@media only screen and (max-width: 1350px) {
+    .LargeHeaderImage img {
+        max-width: 500px;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .LargeHeaderImage img {
+        max-width: 100%;
+    }
+    .SponsorLogo img {
+        width: 130px;
+        height: 130px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .SponsorGroup {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .SponsorLogo img {
+        width: 25vw;
+        height: 25vw;
+    }
+}
+@media only screen and (max-width: 900px) {
+.HeaderTextAndImage {
+    flex-direction: column;
+}
+.LargeHeaderImage img {
+    display: none;
+}
+}
+@media only screen and (max-width: 500px) {
+    .Heading1 {
+        font-size: 48px !important;
+        
+    }
+    .H1StyleChange {
+        font-size: 56px !important;
+    }
+    header {
+        padding-right: 2em;
+    }
+}
+*/
+
+/* MOBILE START */
+
+@media only screen and (max-width: 1000px) {
+    .Heading4 {
+        font-size: 2.3vw !important;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .InfoCardGroup {
+        flex-direction: column;
+    }
+    .HeaderFlex {
+        flex-direction: column-reverse;
+        align-items: initial;
+    }
+    .LargeHeaderImage {
+        max-width: 70vw;
+    }
+    .Heading4 {
+        font-size: 24px !important;
+    }
+    .Heading2Header {
+        font-size: 28px !important;
+    }
+    
+    .Heading1 {
+        font-size: 48px !important;
+    }
+    .PrimaryButtonWithBorder {
+        display: none;
+    }
+    .NavBar {
+        justify-content:center;
+    }
+    .NavBarImage img {
+        max-width: 250px;
+    }
+}
+@media only screen and (max-width: 500px) {
+.BottomCTAText {
+    padding: 24px;
+}
+.Schedule h2, .Schedule p {
+    padding-left: calc(5vw + 8px);
+}
+ .HeaderFlex {
+    padding-left: calc(5vw + 8px);
+ }   
+ .BottomCTALinks {
+    padding-right: 1.5vw !important;
+    padding-left: 1.5vw !important;
+ }
+ .InfoCardGroup {
+    padding-right: 1.5vw !important;
+    padding-left: 1.5vw !important;
+ }
+ .Heading1 {
+    font-size: 44px !important;
+ }
+ footer {
+    flex-direction: column;
+    gap: 1em;
+ }
+ .CopyrightInfo {
+    flex-direction: column;
+    gap: .5em !important;
+ }
+}
+/* MOBILE END */

@@ -4,7 +4,7 @@
     text-decoration: none;
 }
 .Sponsors {
-    display: none;
+   
 }
 .Schedule p {
     padding-left: calc(5vw + 16px);
@@ -315,16 +315,16 @@ p {
     display: flex;
     gap: 4em;
     margin-top: 1em;
-    width: max-content;
+    width: min-content;
     padding-left: calc(5vw + 16px);
-    
-
+}
+.SponsorLogo {
+    width: auto;
 
 }
 .SponsorLogo img {
-    width: 150px;
-    height: 150px;
-    width: 10vw !important;
+    width: 15vw;
+
 }
 footer {
     
@@ -416,6 +416,12 @@ footer p {
     }
 }
 @media only screen and (max-width: 900px) {
+    .SponsorGroup {
+        flex-direction: column;
+    }
+    .SponsorLogo img {
+        width: 50vw;
+    }
     .InfoCardGroup {
         flex-direction: column;
     }

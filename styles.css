@@ -358,6 +358,9 @@ footer p {
     max-width: 32px;
     color: white;
 }
+.ScheduleImg {
+    max-width: 800px;
+}
 
 /* DESKTOP END */
 
@@ -453,6 +456,9 @@ footer p {
     }
 }
 @media only screen and (max-width: 500px) {
+    .ScheduleImg {
+        max-width: 400px;
+    }
 .BottomCTAText {
     padding: 24px;
 }
@@ -481,5 +487,10 @@ footer p {
     flex-direction: column;
     gap: .5em !important;
  }
+}
+@media only screen and (max-width: 400px) {
+    .ScheduleImg {
+        max-width: 300px;
+    }
 }
 /* MOBILE END */

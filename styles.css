@@ -1,496 +1,358 @@
-/* DESKTOP START */
+/*Typography*/
 
-.NoUnderline {
-    text-decoration: none;
-}
-.Sponsors {
-   
-}
-.Schedule p {
-    padding-left: calc(5vw + 16px);
-    margin-top: 0;
-}
-.Schedule h2 {
-    margin-bottom: 0;
-}
-html {
-    font-family: "Exo 2", sans-serif;
- 
+.HeroMain {
+    display: flex;
 
 }
-body {
+* {
+    font-family: "Exo 2";
     margin: 0;
     padding: 0;
 }
-nav {
+body {
+    font-size: 1.125rem;
+    background-color: #F6F4F6;
+}
+
+h1 {
+    font-size: 5.25rem;
+    line-height: 60%;
+    font-family: "Goldman";
+    font-weight: 400;
+    margin-top: .5rem;
+}
+.H1FirstHalf {
+    font-size: 4rem;
+    line-height: 0px;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+
+h1 span {
+    color: #CA09D7;
+    border-radius: 50px;
+    box-shadow: #CA09D7 0px 0px 10px;
+    background-color: #F6F4F6;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-top: 1rem;
+    display: inline-block;
+    
+    font-family: "Goldman";
+    font-weight: 400;
+}
+.PrimaryButton {
+    display: block;
+    background-color: #CA09D7;
+    color: white;
+    padding: 14px 24px;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    border: #CA09D7 solid 2px;
+    /* border: #000 solid 4px; */
+    box-shadow: #CA09D7 0px 0px 10px;
+}
+.PrimaryButton:hover {
+    box-shadow: #7C0585 0px 0px 25px;
+    transition: .2s ease-out;
+    background-color: #7C0585;
+    border: #7C0585 solid 2px;
+}
+.SecondaryButton {
+    display: block;
+    color: #CA09D7;
+    padding: 14px 24px;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    border: #CA09D7 solid 2px;
+    width: 100%;
+}
+.SecondaryButton:hover {
+    background-color: #7C0585;
+    color: #fff;
+    transition: .2s ease-out;
+    border: #7C0585 solid 2px;
+
+}
+
+ header .ButtonGroup {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    width: 60vw;
+    /* padding: 0 1rem; */
+}
+.ButtonGroup {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 50vw
+}
+.HeroText {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+main, .HeroContent {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.MainContent {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.HeroImgGradient{
+    /* opacity: .4; */
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 45%); 
+}
+.HeroImgContainer {
+width: 100%;
+height: 355px;
+overflow: hidden;
+}
+.HeroImgContainer img {
+width: 100vw;
+height: auto;
+
+}
+.InfoSection {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+    
+}
+.ContentCard {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    background-color: #fff;
+    border: #7C0585 .5px solid;
+    box-shadow: hwb(0 0% 100% / .4) 0px 6px 8px -4px;
+    padding: .5rem;
+
+}
+/* .TwoColContainer {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    gap: 2rem;
+
+  
+} */
+
+.InfoSection :nth-child(2) {
+    /* margin-top: 4rem; */
+}
+.ImageGroup img {
+    width: auto;
    
 }
+.ImageGroup{
+
+    display: flex;
+    flex-direction: column;
+
+}
+.SponsorsSection {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+}
+.SponsorLogo {
+    width: 20%;
+    height: fit-content;
+   
+}
+footer {
+    
+}
+
+
+@media only screen and (max-width: 900px) {
+    body {
+        font-size: 1.125rem;
+    }
+    h1 {
+    font-size: 3rem;
+    font-family: "Goldman";
+    line-height: 86%;
+    
+    }
+    h1 span {
+    margin-top: .7rem;
+}
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.25rem;
+    }
+    /* .HeroText {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    } */
+    main, .HeroContent {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    header .ButtonGroup {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        /* padding: 0 1rem; */
+    }
+    .HeroImgContainer {
+        width: 100%;
+        height: initial;
+        }
+    .HeroImgContainer img {
+        width: 100%;
+        height: auto;
+    }
+    .HeroContent {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+    
+    .InfoSection {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+    .ContentCard {
+        display: flex;
+        flex-direction: column;
+        gap: .25rem;
+        background-color: #F6F4F6;
+        padding: .5rem;
+        width: initial;
+    }
+    .SupportingImage {
+        display: none;
+    }
+
+}
+
 .NavBar {
-    background-color: #4F6D7A;
+    background-color: #F6F4F6;
+    box-shadow: #F6F4F6 0px 10px 5px;
     margin: 0;
+    position: relative;
     justify-content: space-between;
     display: flex;
-    padding-left: calc(5vw + 1em);
-    padding-right: 5vw;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    margin-bottom: 1em;
+    /* padding-left: calc(5vw + 1em);
+    padding-right: 5vw; */
+    padding-top: .5rem;
+    padding-bottom: .5  rem;
     /*box-shadow: 0px 8px 32px -8px #000;*/
     align-items: center;
+    padding-left: 2rem;
+    
 }
 .NavBarImage {
     width: fit-content;
 }
+
+@media only screen and (max-width: 900px) {
+    .NavBar {
+        justify-content:center;
+        padding-left: 0;
+    }
+    .NavBarImage img {
+        max-width: 250px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .SponsorsSection {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: unset;
+    }
+    .SponsorLogo {
+        width: 50%;
+        height: auto;
+    }
+}
+
 .NavBarImage img {
     max-width: 300px;
 }
-header {
-    margin-bottom: 3em;
-}
-.HeaderFlex {
-    padding-left: calc(5vw + 16px);
-    padding-right: 3em;
-    display: flex;
-    flex-direction: row;
-    gap: 2em;
-    align-items: center;
-    
-}
-.HeaderImageGrid {
 
-gap: 1em;
-display: flex;
-flex-direction: column;
-
-}
-.LargeHeaderImage img {
-max-width: 100%;
-box-shadow: -10px 10px #4F6D7A;
-
-}
-.HeaderText {
-    max-width: 100%;
-    
-}
-.H1StyleChange {
-    font-size: 56px;
-    color: black;
-}
-header {
-  
-}
-
-.Heading2Header {
-    background-color: transparent !important;
-    color: black;
-    padding: 0;
-    margin-top: 0;
-    font-size: 40px;
-    font-size: 2.8vw !important;
-    font-weight: 600;
-    max-width: 100% !important;
-    margin-bottom: .4em;
-   
-}
-.HeaderTextAndImage {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    gap: 2em;
-}
-.SmallHeaderImage {
-    max-width: 33%;
-}
-
-.SmallHeaderImage img {
-    
-}
-.SmallHeaderImageGrid {
-    display: none;
- 
-    gap: 1em;
-    padding-left: calc(5vw + 16px);
-    padding-right: 3em;
-
-
-}
-.HeaderSponsorship {
-    margin-top: 1em;
-}
-.MainContent {
-    
-}
-.PrimaryButton {
-    font-family: "Exo 2", sans-serif;
-    font-weight:600;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    font-size: 1em;
-    background-color: hwb(296 4% 16%);
-    color: #fff;
-}
-button {
-    border-style: none;
-}
-button:hover {
-    background-color: hwb(296 4% 50%);
-}
-.BottomCTALinks .Filled:hover {
-    background-color: hwb(296 4% 50%);
-}
-.BottomCTALinks .Unfilled:hover {
-    background-color: hwb(199 18% 72%);
-}
-.PrimaryButtonWithBorder {
-    font-family: "Exo 2", sans-serif;
-    font-weight:600;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    font-size: 1em;
-    background-color: #CA09D7;
-    color: #fff;
-    border: white 1px solid;
-}
-.PrimaryButtonFill {
-    font-family: "Exo 2", sans-serif;
-    font-weight:600;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    font-size: 1em;
-    background-color: #CA09D7;
-    color: #fff;
-    width: 10em;
-}
-.SecondaryButton {
-    background-color: transparent;
-    font-family: "Exo 2", sans-serif;
-    font-weight:600;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    font-size: 1em;
-    width: auto;
-    border: 2px #CA09D7 solid;
-}
-.Link {
-    font-weight: 600;
-    color: #CA09D7;
-}
-.Link:hover {
-color: hwb(296 4% 50%);
-}
-.Heading1 {
-    font-family: "Goldman", sans-serif;
-    font-weight: 700;
-    line-height: 100%;
-    margin-bottom: .25em;
-    color: #CA09D7;
-    font-size: 80px;
-    font-size: 7vw !important;
-    line-height: 85% !important;
-    margin-top: .25em;
-}
-.Heading2 {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: .25em;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 16px;
-    padding-left: calc(5vw + 16px);
-    min-width: 60vw;
-}
-.Heading3 {
-    font-size: 32px;
-    font-weight: 600;
-    max-width: 100%;
-    margin-top: 0;
-    margin-bottom: .5em;
-
-    
-}
-
-.Heading4 {
-    font-size: 24px;
-    font-weight: 400;
-    font-size: 2vw !important;
-    max-width: 80%;
-
-    
-}
-.Card {
-    background-color: #4F6D7A;
-    color: #fff;
-    padding: 24px;
-    flex-basis: 100%;
-    border-bottom: #CA09D7 solid 8px;
-    gap: 8px;
-    display: flex;
-    flex-direction: column;
-}
-.Card p, .Card .Heading4 {
-    max-width: none;
-    padding: 0;
-    margin: 0;
-}
-.InfoCardGroup {
-    display: flex;
-    gap: 2em;
-    padding-left: calc(5vw + 16px);
-    padding-right: 3em;
-}
-.BottomCTALinks {
-    padding-left: calc(5vw + 16px);
-    padding-right: 3em;
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    margin-top: 56px;
-    margin-bottom: 56px;
-    
-}
-.BottomCTALinks .Filled {
-    background-color: #CA09D7;
-    color: #fff;
-}
-.BottomCTALinks a {
-    display: flex;
-    justify-content: space-between;
-    background-color: #4F6D7A;
-    color: #fff;
-    border: #000 2px solid;
-}
-.BottomCTAText {
-    display: flex;
-    gap: 1em;
-    flex-direction: column;
-    padding-left: 1em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-
-.BottomCTAText .Heading4, .BottomCTAText p {
-    max-width: 100%;
-    padding: 0;
-    margin: 0;
-}
-.BottomCTAIcon {
-   
-    padding: 1em;
-    display: flex;
-    align-items: center;
-    border-left: #000 solid 2px;
-}
-.BottomCTAIcon img {
-    width: 2em;
-    height: 2em;
-}
-header .Heading4 {
-    font-size: 32px;
-}
-p {
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: .5em;
-    max-width: 60%;
-}
-.BodyFullWidth {
-    max-width: 100%;
-    margin-bottom: .25em;
-}
-.Body {
-    padding-left: calc(5vw + 16px);
-}
-.BodyLight {
-    font-weight: 300;
-}
-.SponsorGroup {
-    display: flex;
-    gap: 4em;
-    margin-top: 1em;
-    width: min-content;
-    padding-left: calc(5vw + 16px);
-}
-.SponsorLogo {
-    width: auto;
-
-}
-.SponsorLogo img {
-    width: 15vw;
-
-}
 footer {
     
     color: #fff;
-    background-color: #4F6D7A;
+    background-color: #CA09D7;
     margin: 0;
-    justify-content: space-between;
+    justify-content: right;
     display: flex;
-    padding-left: calc(5vw + 1em);
-    padding-right: 5vw;
+    /* padding-left: calc(5vw + 1em);
+    padding-right: 5vw; */
     padding-top: 1em;
     padding-bottom: 1em;
-    align-items: center;
+    padding-left: 2rem;
+       padding-right: 2rem;
 }
-.CopyrightInfo {
+/* .CopyrightInfo {
     display: flex;
     align-items: center;
     gap: 1em;
-}
-.FooterLogo {
-    max-width: 56px;
+} */
+/* .FooterLogo {
+    max-width: 300px;
 }
 footer p {
     margin: 0;
-}
+    font-size: 14px;
+    font-weight: 300;
+} */
 .SocialMediaIconGroup {
     display: flex;
     gap: .6em;
 }
 .SocialMediaIcon {
-    max-width: 32px;
+    max-width: 40px;
     color: white;
 }
-.ScheduleImg {
-    max-width: 800px;
-}
 
-/* DESKTOP END */
-
-/*
-@media only screen and (max-width: 1350px) {
-    .LargeHeaderImage img {
-        max-width: 500px;
-    }
-}
-@media only screen and (max-width: 1100px) {
-    .LargeHeaderImage img {
-        max-width: 100%;
-    }
-    .SponsorLogo img {
-        width: 130px;
-        height: 130px;
-    }
-}
-@media only screen and (max-width: 1000px) {
-    .SponsorGroup {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .SponsorLogo img {
-        width: 25vw;
-        height: 25vw;
-    }
-}
 @media only screen and (max-width: 900px) {
-.HeaderTextAndImage {
-    flex-direction: column;
-}
-.LargeHeaderImage img {
-    display: none;
-}
-}
-@media only screen and (max-width: 500px) {
-    .Heading1 {
-        font-size: 48px !important;
-        
+    footer {
+       flex-direction: column;
+       gap: 1rem;
+       flex-direction: column-reverse;
+       align-items: center;
+       
     }
-    .H1StyleChange {
-        font-size: 56px !important;
+    .CopyrightInfo {
+       flex-direction: column;
+       gap: .5rem !important;
     }
-    header {
-        padding-right: 2em;
-    }
-}
-*/
-
-/* MOBILE START */
-
-@media only screen and (max-width: 1000px) {
-    .Heading4 {
-        font-size: 2.3vw !important;
-    }
-}
-@media only screen and (max-width: 900px) {
-    .SponsorGroup {
-        flex-direction: column;
-    }
-    .SponsorLogo img {
-        width: 50vw;
-    }
-    .InfoCardGroup {
-        flex-direction: column;
-    }
-    .HeaderFlex {
-        flex-direction: column-reverse;
-        align-items: initial;
-    }
-    .LargeHeaderImage {
-        max-width: 70vw;
-    }
-    .Heading4 {
-        font-size: 24px !important;
-    }
-    .Heading2Header {
-        font-size: 28px !important;
-    }
-    
-    .Heading1 {
-        font-size: 48px !important;
-    }
-    .PrimaryButtonWithBorder {
-        display: none;
-    }
-    .NavBar {
-        justify-content:center;
-    }
-    .NavBarImage img {
-        max-width: 250px;
-    }
-}
-@media only screen and (max-width: 500px) {
-    .ScheduleImg {
-        max-width: 400px;
-    }
-.BottomCTAText {
-    padding: 24px;
-}
-.Schedule h2, .Schedule p {
-    padding-left: calc(5vw + 8px);
-}
- .HeaderFlex {
-    padding-left: calc(5vw + 8px);
- }   
- .BottomCTALinks {
-    padding-right: 1.5vw !important;
-    padding-left: 1.5vw !important;
- }
- .InfoCardGroup {
-    padding-right: 1.5vw !important;
-    padding-left: 1.5vw !important;
- }
- .Heading1 {
-    font-size: 44px !important;
- }
- footer {
-    flex-direction: column;
-    gap: 1em;
- }
- .CopyrightInfo {
-    flex-direction: column;
-    gap: .5em !important;
- }
-}
-@media only screen and (max-width: 400px) {
-    .ScheduleImg {
-        max-width: 300px;
-    }
-}
-/* MOBILE END */
+   }
+   

@@ -4,6 +4,7 @@
     display: flex;
 
 }
+
 * {
     font-family: "Exo 2";
     margin: 0;
@@ -106,6 +107,9 @@ h1 span {
 main, .HeroContent {
     padding-left: 2rem;
     padding-right: 2rem;
+}
+.HeroContent h2 {
+    width: 70%;
 }
 .MainContent {
     display: flex;

@@ -32,6 +32,20 @@ h2 {
 h3 {
     font-size: 1.5rem;
 }
+.InlineLink {
+    color: #CA09D7;
+}
+.BodyBold {
+    font-weight: 600;
+}
+.LargeParagraph {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.BoldPurple {
+    font-weight: 600;
+    color: #CA09D7;
+}
 
 h1 span {
     color: #CA09D7;
@@ -49,7 +63,9 @@ h1 span {
     font-weight: 400;
 }
 .PrimaryButton {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #CA09D7;
     color: white;
     padding: 14px 24px;
@@ -68,7 +84,9 @@ h1 span {
     border: #7C0585 solid 2px;
 }
 .SecondaryButton {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #CA09D7;
     padding: 14px 24px;
     text-decoration: none;
@@ -122,7 +140,7 @@ main, .HeroContent {
     padding-right: 2rem;
 }
 .HeroContent h2 {
-    width: 70%;
+    width: 90%;
     line-height: 130%;
 }
 .MainContent {
@@ -160,8 +178,11 @@ height: auto;
     display: flex;
     flex-direction: row;
     gap: 1rem;
-
-    
+}
+.FaqGap {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 .ContentCard {
     display: flex;
@@ -171,6 +192,7 @@ height: auto;
     border: #7C0585 .5px solid;
     box-shadow: hwb(0 0% 100% / .4) 0px 6px 8px -4px;
     padding: .5rem;
+    width: 100%;
 
 }
 /* .TwoColContainer {

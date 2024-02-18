@@ -193,6 +193,7 @@ height: auto;
     box-shadow: hwb(0 0% 100% / .4) 0px 6px 8px -4px;
     padding: .5rem;
     width: 100%;
+    width: 320px;
 
 }
 /* .TwoColContainer {
@@ -216,15 +217,18 @@ height: auto;
     flex-direction: column;
 
 }
+.getInvolvedSection {
+    align-items: center;
+}
 .SponsorsSection {
     display: flex;
     flex-direction: row;
     gap: 2rem;
     align-items: center;
+    justify-content: space-between;
 }
 .SponsorLogo {
     width: 20%;
-   
 }
 footer {
     

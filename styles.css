@@ -218,7 +218,7 @@ height: auto;
 
 }
 .getInvolvedSection {
-    align-items: center;
+    align-items: flex-start;
 }
 .SponsorsSection {
     display: flex;
@@ -354,7 +354,7 @@ footer {
     color: #fff;
     background-color: #CA09D7;
     margin: 0;
-    justify-content: right;
+    justify-content: center;
     display: flex;
     /* padding-left: calc(5vw + 1em);
     padding-right: 5vw; */
@@ -379,6 +379,7 @@ footer p {
 .SocialMediaIconGroup {
     display: flex;
     gap: 1em;
+    
 }
 .SocialMediaIcon {
     max-width: 40px;

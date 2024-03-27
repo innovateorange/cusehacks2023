@@ -355,7 +355,7 @@ footer {
         height: auto;
     }
     .MobileNav {
-        /* display: flex;         */
+        display: flex;        
      }
      .NavBarImage {
         /* display:none; */

@@ -360,6 +360,10 @@ footer {
      .NavBarImage {
         /* display:none; */
     }
+    .NavBar {
+        display: flex;
+        justify-content: center;
+    }
 
 }
 
